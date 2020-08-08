@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "SimpleNaver",
+  "description": "한국 포털 사이트인 네이버 서비스를, 검색 기능과 검색 정보에 더욱 집중화된 UI로 변경 시켜주는 도구",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "css": ["css/mainPage.css"],
+      "js": []
+    }
+  ],
+
+  "permissions": ["tabs", "http://*/*", "https://*/*", "file://*/*", "storage"]
+}
