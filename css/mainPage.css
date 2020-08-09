@@ -1,3 +1,30 @@
-#search_btn {
+/* header 요소를 제외한 영역 모두 숨기기 */
+#wrap,
+#u_skip {
   display: none;
+}
+
+/* 검색어 입력 창 중앙 정렬 */
+#header .search_area {
+  top: initial !important;
+  left: 50% !important;
+  margin: initial !important;
+  transform: translate(-50%, -50%);
+}
+
+/* header 영역에서 하단 테두리 지우기 */
+#header .special_bg {
+  border-bottom: none !important;
+  height: 292px !important;
+}
+
+/* header 요소의 하위 요소 중 불필요한 요소들을 전부 제거 (네이버 시작 페이지로, 쥬니어 네이버, 해피빈) */
+.service_area {
+  display: none;
+}
+
+@media (max-height: 760px) {
+  #header .special_bg {
+    height: 250px !important;
+  }
 }

@@ -2,16 +2,16 @@
   "manifest_version": 2,
 
   "name": "SimpleNaver",
-  "description": "한국 포털 사이트인 네이버 서비스를, 검색 기능과 검색 정보에 더욱 집중화된 UI로 변경 시켜주는 도구",
+  "description": "한국 포털 사이트인 네이버 서비스를, 검색 기능과 검색 정보에 더욱 집중화된 UI로 변경 시켜주는 크롬 익스텐션",
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+      "matches": ["https://www.naver.com/"],
       "run_at": "document_end",
       "css": ["css/mainPage.css"],
-      "js": []
+      "js": ["js/mainPage.js"]
     }
   ],
 
-  "permissions": ["tabs", "http://*/*", "https://*/*", "file://*/*", "storage"]
+  "permissions": ["tabs", "storage"]
 }
