@@ -1,7 +1,8 @@
-/* header 요소를 제외한 영역 모두 숨기기 */
+/* 숨기기 */
 #wrap,
-#u_skip {
-  display: none;
+#u_skip,
+#search_btn {
+  display: none !important;
 }
 
 /* 검색어 입력 창 중앙 정렬 */
@@ -21,6 +22,34 @@
 /* header 요소의 하위 요소 중 불필요한 요소들을 전부 제거 (네이버 시작 페이지로, 쥬니어 네이버, 해피빈) */
 .service_area {
   display: none;
+}
+
+/* NAVER 로고를 감싸고 있는 요소를 중앙 위치 */
+#header .logo_default {
+  transform: translate(-50%, -50%);
+  left: 49% !important;
+  top: 80% !important;
+}
+
+/* 검색 창 input 요소의 테두리를 둥글게 */
+#query,
+#header .search_area .green_window {
+  border-radius: 3rem !important;
+}
+
+#header .search_area .green_window:hover,
+#header .search_area .green_window.window_focus {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28) !important;
+}
+
+#header .search_area .input_text {
+  width: 504px !important;
+  padding-left: 24px !important;
+  font-weight: 500 !important;
+}
+
+#header .search_area .btn_keyboard {
+  right: 24px !important;
 }
 
 @media (max-height: 760px) {
