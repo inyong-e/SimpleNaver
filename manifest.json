@@ -6,7 +6,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://www.naver.com/"],
+      "matches": ["https://www.naver.com/", "https://search.naver.com/*"],
       "run_at": "document_end",
       "css": ["css/mainPage.css"],
       "js": ["js/mainPage.js"]

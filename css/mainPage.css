@@ -1,8 +1,13 @@
 /* 숨기기 */
 #wrap,
 #u_skip,
-#search_btn {
+#search_btn,
+#rtk {
   display: none !important;
+}
+
+#header {
+  z-index: initial !important;
 }
 
 /* 검색어 입력 창 중앙 정렬 */
@@ -30,6 +35,13 @@
   left: 49% !important;
   top: 80% !important;
 }
+#header .logo_special {
+  transform: translate(-50%, -50%);
+  top: 68% !important;
+  left: 49% !important;
+  right: initial !important;
+  bottom: initial !important;
+}
 
 /* 검색 창 input 요소의 테두리를 둥글게 */
 #query,
@@ -37,6 +49,7 @@
   border-radius: 3rem !important;
 }
 
+/* 검색 창 마우스 hover, 클릭 시 그림자 */
 #header .search_area .green_window:hover,
 #header .search_area .green_window.window_focus {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28) !important;
@@ -50,6 +63,17 @@
 
 #header .search_area .btn_keyboard {
   right: 24px !important;
+}
+
+.btn_more {
+  display: none;
+}
+
+/* 네이버 서비스 GNB 바 가운데 정렬 */
+#gnb .group_nav {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 11px 0 11px 0 !important;
 }
 
 @media (max-height: 760px) {
