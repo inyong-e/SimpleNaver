@@ -1,6 +1,10 @@
 #sub_pack,
 #gnb,
-.bt_search {
+.bt_search,
+.sp_keyword .link_help,
+.sp_keyword .ly_option .btn_report,
+.sp_keyword .ly_option .btn_close,
+#lnb .lnb_util {
   display: none !important;
 }
 
@@ -37,4 +41,16 @@
 /* 하단 푸터 없애기 */
 #footer {
   display: none !important;
+}
+
+/* 연관 검색어 */
+.sp_keyword .relate_area dt {
+  font-size: 16px !important;
+}
+#nx_related_keywords {
+  padding: 20px 0 !important;
+}
+.sp_keyword .lst_relate li a {
+  color: darkgray !important;
+  font-size: 14px !important;
 }
