@@ -13,13 +13,28 @@
   border-radius: 3rem;
 }
 
+/* 검색 창 내부 input 태그 길이 늘리기 */
+.greenbox .keyword {
+  width: 500px !important;
+}
+
+/* 검색 내용 영역 전체 이용하기 */
+.main_pack {
+  width: initial !important;
+}
+
 /* 검색 창 내부 input 엘리먼트 */
 #nx_query {
   width: 400 !important;
-  margin: 13px 0 0 20px !important;
+  margin: 13px 0 0 18px !important;
 }
 
 /* 자판 키보드 아이콘 */
 .greenwindow .setkr_area {
   left: 460px !important;
+}
+
+/* 하단 푸터 없애기 */
+#footer {
+  display: none !important;
 }
