@@ -6,10 +6,14 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://www.naver.com/", "https://search.naver.com/*"],
-      "run_at": "document_end",
+      "matches": ["https://www.naver.com/"],
       "css": ["css/mainPage.css"],
       "js": ["js/mainPage.js"]
+    },
+    {
+      "matches": ["https://search.naver.com/*"],
+      "css": ["css/searchPage.css"],
+      "js": []
     }
   ],
 
