@@ -59,6 +59,7 @@
   width: 504px !important;
   padding-left: 24px !important;
   font-weight: 500 !important;
+  margin: initial !important;
 }
 
 #header .search_area .btn_keyboard {
