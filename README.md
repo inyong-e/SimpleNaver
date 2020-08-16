@@ -12,11 +12,21 @@
 
 ### 메인 화면
 
-![image](https://user-images.githubusercontent.com/13481627/90277805-33e57c80-dea1-11ea-828f-3f3ff7a493a6.png)
+**Default Logo**
+
+![image](https://user-images.githubusercontent.com/13481627/90326320-004e4380-dfc2-11ea-8883-9da9a5a5d72b.png)
 
 기존의 메인 페이지에서 실시간 검색어와 뉴스레터 등 요소들을 모두 제외하고 온전히 검색에만 집중할 수 있는 단순한 페이지 환경을 제공해 줍니다.
 
 네이버의 다른 서비스 이용을 원할 경우, 메인 화면 상단의 서비스 바에서 해당 서비스에 언제든 접근할 수 있습니다.
+
+<br/>
+
+**Special logo**
+
+![image](https://user-images.githubusercontent.com/13481627/90277805-33e57c80-dea1-11ea-828f-3f3ff7a493a6.png)
+
+Special logo란, 네이버 서비스 자체에서 기념일 등으로 인해 제공하는 특수 로고입니다.
 
 <br/>
 
